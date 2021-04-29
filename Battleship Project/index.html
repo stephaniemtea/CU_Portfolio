@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<HTML>
+
+  <HEAD>
+    <meta charset="UTF-8">
+    <meta name="author" content="Stephanie Tea">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <script src="finalproject.js"></script>
+    <link rel="stylesheet" href="finalproject.css">
+  </HEAD>
+
+  <BODY>
+    <div class="main-container">
+		  <h1 id="page-header">Battleship Game</h1>
+      <p id="info"><span id="info2">Instructions:</span> Click different cells to try to sink the computer's ships<br> If you hit their ship, the cell will turn red, and if you miss, the cell will turn blue. <br>If you sink all their ships before they sink yours, you win. </p>
+			<button id="startBTN" onclick="startGame()">Start Game</button>
+      <p id="ships"></p>
+      <p id="status"></p>
+      <button id="restartBTN" onclick="restartGame()">Restart Game</button>
+      <div class="grid">
+        <table id="myTable">
+        </table>
+      </div>
+    </div>
+  </BODY>
+
+</HTML>
